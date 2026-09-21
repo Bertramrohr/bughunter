@@ -1,13 +1,10 @@
 /* isPositive(...) virker, men kan simplificeres lidt */
 
 void main() {
-    IO.println(isPositive(-5));
+    IO.println(isPositive(10));
 }
 
 boolean isPositive(int number) {
-    if (number > 0) {
-        return true;
-    } else {
-        return false;
-    }
+return number >= 0;
+
 }
